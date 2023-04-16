@@ -9,7 +9,7 @@ public class Calculadora {
     }
 
     double multiplica(double a, double b) {
-        return Math.abs(a * b);
+        return a * b;
     }
 
     double divide(double dividendo, double divisor) throws Exception {
