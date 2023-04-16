@@ -19,7 +19,7 @@ class CalculadoraTest {
     void testMultiplicar() {
         assertEquals(6, miCalculadora.multiplica(2,3));
         assertEquals(0, miCalculadora.multiplica(5,0));
-        assertEquals(-30, miCalculadora.multiplica(-5,0));
+        assertEquals(-30, miCalculadora.multiplica(-5,6));
     }
 
     @Test
